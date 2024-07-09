@@ -1,0 +1,64 @@
+package com.example.mymovie.main.data.local.media
+
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
+import androidx.room.Update
+
+
+@Dao
+interface MediaDao {
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertMediaList(
+        mediaEntity: List<MediaEntity>
+    )
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertMediaItem(
+        mediaItem: MediaEntity
+    )
+
+    @Update
+    suspend fun updateMediaItem(
+        mediaItem: MediaEntity
+    )
+
+    @Query("SELECT * FROM media WHERE id = :id")
+    suspend fun getMediaById(id : Int) : MediaEntity
+
+    @Query("SELECT * FROM media WHERE mediaType = :mediaType AND category = :category")
+    suspend fun getMediaListByTypeAndCategory(mediaType: String, category : String) : List<MediaEntity>
+
+    @Query("DELETE FROM media WHERE mediaType = :mediaType AND category = :category")
+    suspend fun deleteMediaListByTypeAndCategory(mediaType: String, category : String)
+
+    @Query("SELECT * FROM media WHERE category = :category")
+    suspend fun getTrendingMediaList(category : String): List<MediaEntity>
+
+    @Query("DELETE FROM media WHERE category = :category")
+    suspend fun deleteTrendingMediaList(category : String)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
