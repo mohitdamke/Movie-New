@@ -94,8 +94,3 @@ Acknowledgements
 
     TMDB API for providing movie data.
     Shimmer for the loading animations.
-
-css
-
-
-You can adjust the content and paths according to your specific project details and repos
