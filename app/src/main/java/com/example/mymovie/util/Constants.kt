@@ -22,6 +22,8 @@ object Constants {
     const val unavailable = "Unavailable"
 
 
+    const val APP_ENTRY = "appEntry"
+    const val USER_SETTINGS = "userSettings"
 
 
     const val GET_TAG = "--> GET https://api.themoviedb.org"
