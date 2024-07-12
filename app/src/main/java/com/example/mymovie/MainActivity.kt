@@ -28,7 +28,7 @@ import com.example.mymovie.detail.presentation.SomethingWentWrong
 import com.example.mymovie.main.presentation.usecases.MainUiEvents
 import com.example.mymovie.main.presentation.usecases.MainUiState
 import com.example.mymovie.main.presentation.viewmodel.MainViewModel
-import com.example.mymovie.main.presentation.viewmodel.MediaMainScreen
+import com.example.mymovie.main.presentation.screen.MediaMainScreen
 import com.example.mymovie.nav.Route
 import com.example.mymovie.onboarding.OnBoardingViewModel
 import com.example.mymovie.onboarding.components.OnBoardingScreen

@@ -95,7 +95,7 @@ fun MediaSearchScreen(
                 }
             } else {
                 LazyVerticalGrid(
-                    contentPadding = PaddingValues(top = BigRadius.dp),
+                    contentPadding = PaddingValues(top = 10.dp),
                     columns = GridCells.Fixed(2),
                 ) {
                     items(searchScreenState.searchList.size) {

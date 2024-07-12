@@ -1,4 +1,4 @@
-package com.example.mymovie.main.presentation.screen.popularAndTvSeries
+package com.example.mymovie.main.presentation.screen
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
@@ -44,7 +44,6 @@ import com.example.mymovie.main.presentation.usecases.MainUiState
 import com.example.mymovie.ui.theme.BigRadius
 import com.example.mymovie.ui_shared_components.ListShimmerEffect
 import com.example.mymovie.ui_shared_components.MediaItem
-import com.example.mymovie.ui_shared_components.NonFocusedTopBar
 import com.example.mymovie.ui_shared_components.header
 import com.example.mymovie.util.Constants.popularScreen
 import com.example.mymovie.util.Constants.recommendedListScreen
@@ -53,7 +52,6 @@ import com.example.mymovie.util.Constants.trendingAllListScreen
 import com.example.mymovie.util.Constants.tvSeriesScreen
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import kotlin.math.roundToInt
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable

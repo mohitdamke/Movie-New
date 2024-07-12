@@ -1,4 +1,4 @@
-package com.example.mymovie.main.presentation.viewmodel
+package com.example.mymovie.main.presentation.screen
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -36,8 +36,6 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.mymovie.R
 import com.example.mymovie.common.BottomNavRoute
-import com.example.mymovie.main.presentation.screen.MediaHomeScreen
-import com.example.mymovie.main.presentation.screen.popularAndTvSeries.MediaListScreen
 import com.example.mymovie.main.presentation.usecases.MainUiEvents
 import com.example.mymovie.main.presentation.usecases.MainUiState
 import com.example.mymovie.search.presentation.MediaSearchScreen
