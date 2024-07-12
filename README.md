@@ -12,8 +12,11 @@ This is a movie app built with Kotlin and Jetpack components, using the TMDB API
 - **Paging:** Infinite scrolling for movie lists.
 - **Bookmark Movies:** Save favorite movies to a local database using Room.
 
+
+https://github.com/user-attachments/assets/1de4d569-0ebb-4c17-94b1-dd2dbff2a5d7
+
+
 ## Video
-https://github.com/mohitdamke/Movie-New/assets/112572179/fc736804-a3eb-4ce6-b908-12429f9a5d9c
 
 ## Screenshots
 ![Movie2](https://github.com/mohitdamke/Movie-New/assets/112572179/5946cb0a-2e80-460b-a8be-663255928854)
