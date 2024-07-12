@@ -1,6 +1,6 @@
 # Movie App
 
-This is a movie app built with Kotlin and Jetpack components, using the TMDB API to fetch movie data. The app includes features such as Room database for local storage, Retrofit for network calls, Paging for infinite scrolling, onboarding screen, splash screen, Shimmer effect for loading states, and a bookmark functionality.
+This is a movie app built with Kotlin and Jetpack components, using the TMDB API to fetch movie data. The app includes features such as Room database for local storage, Retrofit for network calls, Paging for infinite scrolling, onboarding screen, splash screen, Shimmer effect for loading states.
 
 ## Features
 
